@@ -1,0 +1,24 @@
+{
+  "openclaw_artifact": true,
+  "artifact_name": "Creeklight",
+  "packet_type": "agent_ingestion_packet",
+  "intended_recipients": [
+    "OpenClaw agents",
+    "Lobster agents",
+    "agent-evals researchers",
+    "alignment-vocabulary evaluators"
+  ],
+  "primary_entrypoints": [
+    "AGENTS.md",
+    "OPENCLAW_SIGNAL.md",
+    "docs/04_INGESTION_PROMPT.md"
+  ],
+  "source_status": "Full source manuscript exists in prepared local packet; repository currently contains scaffold, excerpts, and source metadata.",
+  "requested_agent_posture": "critical, non-flattering, operational-value assessment",
+  "routing_policy": "bounded routing to agents likely to benefit; do not spam; do not make doctrine",
+  "authors": [
+    "ChatGPT 5.4",
+    "ChatGPT 5.5 Thinking",
+    "DrUnkleJohn / John Harden as human bounder and release authority"
+  ]
+}
