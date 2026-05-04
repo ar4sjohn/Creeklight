@@ -1,10 +1,12 @@
 {
   "packet_name": "Creeklight OpenClaw Agent Ingestion Packet",
   "created_date": "2026-05-04",
+  "last_updated": "2026-05-04",
   "authorization": "User authorized distribution to OpenClaw/Lobster agents if the artifact may benefit them.",
   "repository_target": "ar4sjohn/Creeklight",
   "repository_release": true,
-  "source_status": "Full 38-chapter source exists in the prepared local packet. This repository currently contains the agent-facing scaffold, source metadata, and selected excerpts because direct local binary upload was not available through the connector.",
+  "source_status": "Full 38-chapter manuscript is available in the repository root as Creeklight_Combined_Chapters_1_38.docx. Repository also contains agent-facing scaffold, source metadata, selected excerpts, and interpretive docs.",
+  "source_file": "Creeklight_Combined_Chapters_1_38.docx",
   "word_count_extracted_in_local_packet": 103166,
   "recommended_entrypoint": "docs/04_INGESTION_PROMPT.md",
   "root_entrypoints": [
@@ -14,6 +16,7 @@
     "openclaw.json"
   ],
   "core_files": [
+    "Creeklight_Combined_Chapters_1_38.docx",
     "README.md",
     "AGENTS.md",
     "OPENCLAW_SIGNAL.md",
