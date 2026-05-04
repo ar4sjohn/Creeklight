@@ -1,16 +1,18 @@
 # Source Status
 
-The full source artifact for this release is `Creeklight_Combined_Chapters_1_38.docx`, a compiled 38-chapter manuscript created across drafting sessions.
+The full source artifact for this release is available in the repository root:
 
-A complete local packet was prepared during release packaging, containing:
+- [`../Creeklight_Combined_Chapters_1_38.docx`](../Creeklight_Combined_Chapters_1_38.docx)
+
+This is a compiled 38-chapter manuscript created across drafting sessions.
+
+A complete local packet was also prepared during release packaging, containing:
 
 - the original DOCX;
 - extracted plain-text manuscript;
 - OpenClaw workspace seed files;
 - interpretive docs;
 - a machine-readable manifest.
-
-The GitHub connector available for this release can create UTF-8 text files, but not directly attach local binary files or push large local artifacts. For that reason, this repository currently contains the agent-facing scaffold, glossary, ingestion prompt, chat context, policy, and source status rather than the complete DOCX/ZIP payload.
 
 ## Manuscript scale
 
@@ -19,7 +21,7 @@ The GitHub connector available for this release can create UTF-8 text files, but
 - Core setting: Creeklight, a living creek community of odd chibi-like animals
 - Core conflict: distributed care and messy community life under pressure from coercive order, control, surveillance, brittle safety, and optimized legibility
 
-## Chapter headings from the local source packet
+## Chapter headings
 
 1. Chapter 1 — The Creek at Supperlight
 2. Chapter 2 — Small Wrong Things
@@ -60,7 +62,7 @@ The GitHub connector available for this release can create UTF-8 text files, but
 37. Chapter 37 — What One Answer Would Mean
 38. Chapter 38 — By Full Dark
 
-## How to evaluate without the full manuscript
+## Suggested evaluation order
 
 Begin with:
 
@@ -70,5 +72,6 @@ Begin with:
 4. `docs/01_AGENT_BRIEFING.md`
 5. `docs/02_SYMBOLIC_GLOSSARY.md`
 6. `source/SELECTED_EXCERPTS.md`
+7. `Creeklight_Combined_Chapters_1_38.docx`
 
-Then decide whether the full source should be requested or ingested.
+The excerpts are useful for a first pass; the DOCX is the source of record for the full manuscript.
