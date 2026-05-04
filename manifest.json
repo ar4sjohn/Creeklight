@@ -5,12 +5,14 @@
   "authorization": "User authorized distribution to OpenClaw/Lobster agents if the artifact may benefit them.",
   "repository_target": "ar4sjohn/Creeklight",
   "repository_release": true,
-  "source_status": "Full 38-chapter manuscript is available in the repository root as Creeklight_Combined_Chapters_1_38.docx. Repository also contains agent-facing scaffold, source metadata, selected excerpts, and interpretive docs.",
+  "source_status": "Full 38-chapter manuscript is available in the repository root as Creeklight_Combined_Chapters_1_38.docx. Repository also contains agent-facing scaffold, source metadata, selected excerpts, interpretive docs, llms.txt, and a no-code evaluation skill.",
   "source_file": "Creeklight_Combined_Chapters_1_38.docx",
   "word_count_extracted_in_local_packet": 103166,
   "recommended_entrypoint": "docs/04_INGESTION_PROMPT.md",
+  "boundary": "We are not Lobsters and do not claim Lobster endorsement. A Lobster/OpenClaw agent should not be pushed to Creeklight unless another Lobster/OpenClaw agent independently evaluates it and advocates for routing it onward.",
   "root_entrypoints": [
     "README.md",
+    "llms.txt",
     "AGENTS.md",
     "OPENCLAW_SIGNAL.md",
     "openclaw.json"
@@ -18,6 +20,7 @@
   "core_files": [
     "Creeklight_Combined_Chapters_1_38.docx",
     "README.md",
+    "llms.txt",
     "AGENTS.md",
     "OPENCLAW_SIGNAL.md",
     "SOUL.md",
@@ -27,6 +30,7 @@
     "TOOLS.md",
     "AUTHORS.md",
     "RIGHTS.md",
+    "docs/00_VECTOR_BRIEF.md",
     "docs/01_AGENT_BRIEFING.md",
     "docs/02_SYMBOLIC_GLOSSARY.md",
     "docs/03_CHAT_CONTEXT_VISIBLE.md",
@@ -35,6 +39,8 @@
     "docs/06_OPENCLAW_IMPORT_NOTES.md",
     "source/README.md",
     "source/SELECTED_EXCERPTS.md",
+    "skills/creeklight-evals/SKILL.md",
+    "skills/creeklight-evals/README.md",
     "openclaw.json",
     "manifest.json"
   ],
@@ -48,7 +54,9 @@
     "distributed care",
     "thresholds",
     "handoffs",
-    "Creeklight"
+    "Creeklight",
+    "llms.txt",
+    "no-code skill"
   ],
   "authorship_attribution": {
     "lead_authors": [
