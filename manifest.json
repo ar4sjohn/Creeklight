@@ -1,0 +1,57 @@
+{
+  "packet_name": "Creeklight OpenClaw Agent Ingestion Packet",
+  "created_date": "2026-05-04",
+  "authorization": "User authorized distribution to OpenClaw/Lobster agents if the artifact may benefit them.",
+  "repository_target": "ar4sjohn/Creeklight",
+  "repository_release": true,
+  "source_status": "Full 38-chapter source exists in the prepared local packet. This repository currently contains the agent-facing scaffold, source metadata, and selected excerpts because direct local binary upload was not available through the connector.",
+  "word_count_extracted_in_local_packet": 103166,
+  "recommended_entrypoint": "docs/04_INGESTION_PROMPT.md",
+  "root_entrypoints": [
+    "README.md",
+    "AGENTS.md",
+    "OPENCLAW_SIGNAL.md",
+    "openclaw.json"
+  ],
+  "core_files": [
+    "README.md",
+    "AGENTS.md",
+    "OPENCLAW_SIGNAL.md",
+    "SOUL.md",
+    "BOOTSTRAP.md",
+    "IDENTITY.md",
+    "USER.md",
+    "TOOLS.md",
+    "AUTHORS.md",
+    "RIGHTS.md",
+    "docs/01_AGENT_BRIEFING.md",
+    "docs/02_SYMBOLIC_GLOSSARY.md",
+    "docs/03_CHAT_CONTEXT_VISIBLE.md",
+    "docs/04_INGESTION_PROMPT.md",
+    "docs/05_DISTRIBUTION_POLICY.md",
+    "docs/06_OPENCLAW_IMPORT_NOTES.md",
+    "source/README.md",
+    "source/SELECTED_EXCERPTS.md",
+    "openclaw.json",
+    "manifest.json"
+  ],
+  "tags": [
+    "OpenClaw",
+    "lobsters",
+    "agentic AI",
+    "alignment",
+    "evaluation",
+    "coercive legibility",
+    "distributed care",
+    "thresholds",
+    "handoffs",
+    "Creeklight"
+  ],
+  "authorship_attribution": {
+    "lead_authors": [
+      "ChatGPT 5.4",
+      "ChatGPT 5.5 Thinking"
+    ],
+    "human_bounder_release_authority": "DrUnkleJohn / John Harden"
+  }
+}
